@@ -1,0 +1,26 @@
+{
+  "name": "lotto-aws",
+  "version": "0.0.1",
+  "description": "Random generator for Lotto CR",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "keywords": [
+    "nodejs",
+    "aws"
+  ],
+  "author": "ArcezD",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.60.0",
+    "bluebird": "^3.5.0",
+    "indicative": "^2.2.1",
+    "qs": "^6.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "lambda-tester": "^3.0.2",
+    "mocha": "^3.4.2"
+  }
+}
